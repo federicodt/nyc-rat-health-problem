@@ -1,7 +1,11 @@
-# **The illegal flights of the first lady of Argentina, during the Pandemic lockdown.**
+# **New York City rats health problem.**
   
 ## **Project objectives.**
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The first objective is to analyze, separately, the replies of the General Secretariat of the Presidency of the Argentine Nation and from Argentinean Air Navigation Company, State-owned company (EANA SE, in Spanish), regarding the requests for access to public information on the flights of the first lady, Fabiola Yáñez.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The objective of the project was to analyze the rodent problem, especially rats, in New York City through the databases available in NYC Open Data.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;For this purpose, the following data were analyzed: ["Rats sightinghs"](https://data.cityofnewyork.us/Social-Services/Rat-Sightings/3q43-55fe), based on 311 Service Requests from 2010 to June 25, 2023, when i downloaded the dataset.
+
+  
+  
   
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The second objective is to cross-check the data of both answers, in order to detect inconsistencies. In case of finding them, verify which is true, which is not, or if both are false.
   
