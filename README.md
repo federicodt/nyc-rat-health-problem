@@ -7,15 +7,6 @@
 2. ["Rodent inspections"](https://data.cityofnewyork.us/Health/Rodent-Inspection/p937-wjvj)
 3. ["Rats Heat Map"](https://data.cityofnewyork.us/Social-Services/Rats-Heat-Map/g642-4e55), also based on 311 Service Requests from 2010 to June 25, 2023, when i downloaded the dataset.
 
-  
-
-  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The second objective is to cross-check the data of both answers, in order to detect inconsistencies. In case of finding them, verify which is true, which is not, or if both are false.
-  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The third objective is to detect if the first lady always traveled as a companion of the President of Argentina, Alberto Ángel Fernández. 
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Finally, graph the findings.
-
 ## **Project findings.**
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The first finding was that the General Secretariat of the Presidency of Argentina lied in its response to the request for access to public information. The agency did not include all the flights of the First Lady and, on the other hand, altered some of the data of several of the flights. This emerged from crossing both answers. The information provided by EANA SE was collected from each airport in the country.
 
