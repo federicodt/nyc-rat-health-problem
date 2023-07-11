@@ -21,7 +21,9 @@
 
 ## **Project data analysis process & notebooks.**
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I used this notebooks to clean each dataset (Rat sightings, Rodent inspections and Rat heat map) and extract what I needed for my analysis.
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I then used the notebooks to browse and analyze the available data. Also, to cross-reference and/or generate new DataFrames.
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Then, I plotted the findings in Matplotlib, Altair, or Seaborn. The heat maps were made with Folium. Additionally, I made a graph in D3.
 
 ## **Learnings and obstacles during the project.**
