@@ -1,0 +1,175 @@
+<!doctype html>
+<html>
+  <head>
+    <!-- some basic stuff  -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SVG with D3</title>
+
+    <!-- 
+      add your stylesheet 
+      base.css loads the basic stuff
+      you can tweak your css in custom.css
+      WARNING: the order of the stylesheets matters
+    -->
+    <link rel="stylesheet" href="base.css">
+    <link rel="stylesheet" href="custom.css">
+
+    <!-- add your d3 script -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
+    
+    <!-- your JS code that uses d3 to manipulate data -->
+    <script>
+
+    // Step 4. load your data with d3.csv()
+    d3.csv("complains_by_boroughs.csv")
+    
+      // d3.json("happiness-sample-data.json")
+      .then(data => {
+
+      // check if the data is loaded:
+      console.log(data)
+
+      // == your code happens below ==
+         
+      // Step 5. create an SVG container inside #my-svg-chart using d3.select().append()
+      const myChart = d3
+        .select('#waffle-chart')
+        .append('svg')
+        .attr('width', 700)
+        .attr('height', 600)
+
+      // Step 6. create SVG elements binded with data
+      const days = myChart
+        .selectAll('rect')
+        .data(data)
+        .join('rect');
+
+      // Step 7. Position the SVG shapes at the right places
+      const gridSize = 50, gap = 3;
+
+      days
+       // SVG rectangle specific attributes
+       .attr('x', (d,i) => {
+         return Math.floor(i%10)*(gridSize+ gap);
+       })
+       .attr('y', (d,i) => {
+         return Math.floor(i/10)*(gridSize+ gap);
+       })
+       .attr('width', gridSize)
+       .attr('height', gridSize)
+
+      // Step 8. Encode data onto the SVG shapes
+      days.style('fill', d=> {
+        if (d.count == '1') {return 'red'}
+        if (d.count == '2') {return 'orange'}
+        if (d.count == '3') {return 'yellow'}
+        if (d.count == '4') {return 'pink'}
+        if (d.count == '5') {return 'grey'}
+      })
+
+    // Legend:
+    var svg = d3.select("#my_legend")
+
+    svg.append("rect")
+       .attr("x", 10 - 6) // Adjust the x-coordinate to center the square
+       .attr("y", 25 - 6) // Adjust the y-coordinate to center the square
+       .attr("width", 15) // Specify the width of the square
+       .attr("height", 15) // Specify the height of the square
+       .style("fill", "red");
+
+    svg.append("rect").attr("x", 110 - 6).attr("y", 25 - 6).attr("width", 15).attr("height", 15).style("fill", "orange");
+    svg.append("rect").attr("x", 225 - 6).attr("y", 25 - 6).attr("width", 15).attr("height", 15).style("fill", "yellow");
+    svg.append("rect").attr("x", 300 - 6).attr("y", 25 - 6).attr("width", 15).attr("height", 15).style("fill", "pink");
+    svg.append("rect").attr("x", 385 - 6).attr("y", 25 - 6).attr("width", 15).attr("height", 15).style("fill", "grey");
+    //svg.append("rect").attr("x", 410 - 6).attr("y", 20 - 6).attr("width", 12).attr("height", 12).style("fill", "#BAD3FF");
+       
+    svg.append("text").attr("x", 25).attr("y", 28).text("Brooklyn").style("font-size", "18px").attr("alignment-baseline","middle").attr("font-weight", 700)
+    svg.append("text").attr("x", 125).attr("y", 28).text("Manhattan").style("font-size", "18px").attr("alignment-baseline","middle").attr("font-weight", 700)
+    svg.append("text").attr("x", 240).attr("y", 28).text("Bronx").style("font-size", "18px").attr("alignment-baseline","middle").attr("font-weight", 700)
+    svg.append("text").attr("x", 315).attr("y", 28).text("Queens").style("font-size", "18px").attr("alignment-baseline","middle").attr("font-weight", 700)
+    svg.append("text").attr("x", 400).attr("y", 28).text("Staten Island").style("font-size", "18px").attr("alignment-baseline","middle").attr("font-weight", 700)
+    //svg.append("text").attr("x", 430).attr("y", 20).text(">= 70").style("font-size", "15px").attr("alignment-baseline","middle")
+
+    const legendData = [
+      { category: 'Brooklyn', color: 'red' },
+      { category: 'Manhattan', color: 'orange' },
+      { category: 'Bronx', color: 'yellow' },
+      { category: 'Queens', color: 'pink' },
+      { category: 'Staten Island', color: 'grey' },
+      //{ category: '>= 70', color: '#BAD3FF' },
+    ];
+
+    const legendContainer = d3.select('#legend')
+      .append('div')
+      .attr('class', 'legend-container');
+
+    const legend = legendContainer
+      .selectAll('.legend-item')
+      .data(legendData)
+      .enter()
+      .append('div')
+      .attr('class', 'legend-item');
+
+    legend
+      .append('span')
+      .attr('class', 'legend-color')
+      .style('background-color', d => d.color);
+
+    legend
+      .append('span')
+      .attr('class', 'legend-label')
+      .text(d => d.category);
+        
+        //
+
+         // legend circle
+         //var svg = d3.select("#my_dataviz")
+
+        // 
+         //svg.append("circle").attr("cx",100).attr("cy",30).attr("r", 6).style("fill", "#69b3a2")
+         //svg.append("circle").attr("cx",200).attr("cy",30).attr("r", 6).style("fill", "#404080")
+         //svg.append("text").attr("x", 120).attr("y", 30).text("variable A").style("font-size", "15px").attr("alignment-baseline","middle")
+         //svg.append("text").attr("x", 220).attr("y", 30).text("variable B").style("font-size", "15px").attr("alignment-baseline","middle")
+        
+         
+
+
+    })
+    </script>
+
+  </head>
+  
+  <style>
+    .legend-item {
+      display: flex;
+      align-items: center;
+      margin-bottom: 5px;
+    }
+     
+    .legend-color {
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      margin-right: 5px;
+    }
+      
+    .legend-label {
+      font-size: 14px;
+    }
+
+  </style>
+
+  <body>
+
+    <h1>Rodents complaints by NYC boroughs (2010-June 25, 2023)</h1>
+    <p>Each square represents 2,000 calls to 311.</p>
+    <div id="waffle-chart"></div>
+    <div>
+      <svg id="my_legend" height=50 width=600></svg>
+    </div>
+  </body>
+
+</html>
+
+
