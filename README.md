@@ -19,19 +19,7 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;All files are available in the project folder on [GitHub]([https://github.com/federicodt/project1/](https://github.com/federicodt/nyc-rat-health-problem)).
 
-## **Project data analysis process.**
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;First, I used filters in each of the "Microsoft 'Excel'" spreadsheets to isolate the data from the first lady's flights. In this way, I found only a few.
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Then, I filtered by aircraft and destinations; mainly Posadas, Misiones, which is the city where the first lady's family lives.
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Each flight was crossed-checked against the [agenda of activities of the President of the Argentine Nation](https://www.casarosada.gob.ar/informacion/actividad-oficial), in order to find out if there was any official trip.
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Also, each flight, each flight, especially those to Posadas, Misiones, were checked against the first lady's social media accounts: [Instagram](https://www.instagram.com/fabiolaoficialok/), [Facebook](https://www.facebook.com/fabiolaoficialok/) and [YouTube](https://www.youtube.com/channel/UCs4ytErpRkwyD1Gj_LzLliQ).
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Moreover, each flight was checked against the [FlightRadar24](https://www.flightradar24.com/) database, especially the search by [airport](https://www.flightradar24.com/data/airports), [aircraft](https://www.flightradar24.com/data/aircraft) and [flights](https://www.flightradar24.com/data/flights).
-
-## **Notebooks.**
-
+## **Project data analysis process & notebooks.**
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I used this notebooks to clean each dataset (Rat sightings, Rodent inspections and Rat heat map) and extract what I needed for my analysis.
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I then used the notebooks to browse and analyze the available data. Also, to cross-reference and/or generate new DataFrames.
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Then, I plotted the findings in Matplotlib, Altair, or Seaborn. The heat maps were made with Folium. Additionally, I made a graph in D3.
