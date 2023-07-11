@@ -2,6 +2,7 @@
   
 ## **Project objectives.**
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The objective of the project was to analyze the rodent problem, especially rats, in New York City through the databases available in NYC Open Data, to try to find out if the problem is getting better or worse.
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;For this purpose, the following data were analyzed: 
 1. ["Rats sightinghs"](https://data.cityofnewyork.us/Social-Services/Rat-Sightings/3q43-55fe), based on 311 Service Requests from 2010 to June 25, 2023, when i downloaded the dataset.
 2. ["Rodent inspections"](https://data.cityofnewyork.us/Health/Rodent-Inspection/p937-wjvj)
@@ -33,4 +34,4 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;If I had more time, more skills and more confidence in them, I would have used Python and Pandas to analyze the data. Besides, I would have used Qgis, to map the data. Also, I would have made better graphics.
 
 ## **Proyect link.**
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[The illegal flights of the first lady of Argentina, during the Pandemic lockdown](https://federicodt.github.io/project1/)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Are rats still a problem?]([https://federicodt.github.io/project1/](https://federicodt.github.io/nyc-rat-health-problem/)https://federicodt.github.io/nyc-rat-health-problem/)
