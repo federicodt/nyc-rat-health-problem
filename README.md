@@ -29,9 +29,23 @@
 
 ## **Learnings and obstacles during the project.**
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I started from scratch with HTML and, based on a template, I was able to build the website and, by consulting several web pages, I was able to make modifications. I had never used Flourish and Datawrapper. Not only did I enjoy doing it, but I am beginning to understand the things I can do with these tools. Also, I started to feel less afraid to start a project and to tell a story with data.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In the previous project, my first one, I used an html template for the first time. This time, I copied one that I thought was appropriate for the project and modified it. I hadn't used notebooks before either. In this one I used about five to clean up, analyze, crisscross and generate information. 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;If I had more time, more skills and more confidence in them, I would have used Python and Pandas to analyze the data. Besides, I would have used Qgis, to map the data. Also, I would have made better graphics.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;For plotting the graphics I used Matplotlib, Altair and Seaborn. None of them I had used before. In addition, I did some plotting with Datawrapper and Flourish. Also, I added a graph in D3.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Para este artículo tuve muchos problemas. Para empezar, el template de html me dio dificultades para modificarlo. Cada vez que ponía algo, otra cosa se rompía. Cuando inserté el gráfico hecho en D3, el 'base.css' colisionaba con el 'style.css'. Eso me dio unos cuantos dolores de cabeza.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Acerca de los gráficos, los que realicé en Altair, que fueron algunos, no todos pude embeberlos en 'index.html'. Probé muchas cosas, hasta que encontré en un foro que resulta que hay entre la última versión de Altair y Chrome. Al parecer, los últimos cambios del navegador de Google no permiten embeber ciertos gráficos en Altair.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Regarding Altair, I had a hard time modifying it and configuring it to look the way I wanted. The Folium heat maps were also complicated. In all cases, it was the first time I used these tools.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I wanted to do a pretty deep analysis of the information, but time did not allow it. 
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I think the most difficult thing was the number of errors, obstacles and problems that arose throughout the project. But they also helped me to learn many things.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Thanks to the help of TAs and my colleagues, from whom I also learned a lot, i could finished the project.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;If I had more time, more skills and more confidence in them, I would have used API or scrapping techniques. Also, I would have made better graphics and a better web page.
 
 ## **Proyect link.**
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Are rats still a problem?](https://federicodt.github.io/nyc-rat-health-problem/)
