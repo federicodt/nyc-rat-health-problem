@@ -140,8 +140,8 @@
 
 	</script>
 	<script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
-  	<script src="https://cdn.jsdelivr.net/npm/vega-lite@5.8.0"></script>
-  	<script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.8.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
 	  
 </head>
 
@@ -229,12 +229,162 @@
 		</div>
 
 		<div class="chart-section">
-			<div class="vega-visualization" id="vega-visualization-b9b075bf07d84c1e81aa0b7cb2f3bb80"></div>
-			<script type="text/javascript">
-  			const spec = {"config": {"view": {"continuousWidth": 300, "continuousHeight": 300, "stroke": null}, "axis": {"labelFontSize": 13, "titleFontSize": 20}, "legend": {"labelFontSize": 12, "labelPadding": 5, "labelSeparation": 5, "offset": 20, "padding": 10, "rowPadding": 10, "symbolSize": 150, "symbolStrokeColor": "black", "symbolStrokeWidth": 1, "symbolType": "square", "titleColor": "black", "titleFontSize": 14}, "title": {"fontSize": 20}}, "data": {"name": "data-b1664b1326cf333cd2f0e2e3577db801"}, "mark": {"type": "area"}, "encoding": {"color": {"field": "Borough", "scale": {"range": ["yellow", "red", "orange", "pink", "purple", "grey"]}, "type": "nominal"}, "tooltip": [{"field": "Borough", "type": "nominal"}, {"field": "year", "type": "quantitative"}, {"field": "count", "type": "quantitative"}], "x": {"axis": {"format": "0"}, "field": "year", "scale": {"domain": [2018, 2022]}, "title": "Years", "type": "quantitative"}, "y": {"field": "count", "title": "Number of Complains", "type": "quantitative"}}, "height": 600, "padding": 15, "params": [{"name": "param_13", "select": {"type": "interval", "encodings": ["x", "y"]}, "bind": "scales"}], "title": {"text": "Complaints about rodents per year (2010-June 25, 2023)", "anchor": "start", "offset": 20, "orient": "top", "subtitle": []}, "width": 700, "$schema": "https://vega.github.io/schema/vega-lite/v5.8.0.json", "datasets": {"data-b1664b1326cf333cd2f0e2e3577db801": [{"year": 2010, "Borough": "BROOKLYN", "count": 3399}, {"year": 2010, "Borough": "MANHATTAN", "count": 2867}, {"year": 2010, "Borough": "BRONX", "count": 2067}, {"year": 2010, "Borough": "QUEENS", "count": 1569}, {"year": 2010, "Borough": "STATEN ISLAND", "count": 632}, {"year": 2011, "Borough": "BROOKLYN", "count": 3671}, {"year": 2011, "Borough": "MANHATTAN", "count": 2461}, {"year": 2011, "Borough": "BRONX", "count": 2174}, {"year": 2011, "Borough": "QUEENS", "count": 1600}, {"year": 2011, "Borough": "STATEN ISLAND", "count": 548}, {"year": 2012, "Borough": "BROOKLYN", "count": 3600}, {"year": 2012, "Borough": "MANHATTAN", "count": 2857}, {"year": 2012, "Borough": "BRONX", "count": 2125}, {"year": 2012, "Borough": "QUEENS", "count": 1522}, {"year": 2012, "Borough": "STATEN ISLAND", "count": 538}, {"year": 2012, "Borough": "Unspecified", "count": 1}, {"year": 2013, "Borough": "BROOKLYN", "count": 3300}, {"year": 2013, "Borough": "MANHATTAN", "count": 3018}, {"year": 2013, "Borough": "BRONX", "count": 2120}, {"year": 2013, "Borough": "QUEENS", "count": 1660}, {"year": 2013, "Borough": "STATEN ISLAND", "count": 641}, {"year": 2014, "Borough": "BROOKLYN", "count": 3968}, {"year": 2014, "Borough": "MANHATTAN", "count": 3541}, {"year": 2014, "Borough": "BRONX", "count": 2743}, {"year": 2014, "Borough": "QUEENS", "count": 1748}, {"year": 2014, "Borough": "STATEN ISLAND", "count": 617}, {"year": 2015, "Borough": "BROOKLYN", "count": 5264}, {"year": 2015, "Borough": "MANHATTAN", "count": 4124}, {"year": 2015, "Borough": "BRONX", "count": 3201}, {"year": 2015, "Borough": "QUEENS", "count": 2103}, {"year": 2015, "Borough": "STATEN ISLAND", "count": 594}, {"year": 2016, "Borough": "BROOKLYN", "count": 5979}, {"year": 2016, "Borough": "MANHATTAN", "count": 4610}, {"year": 2016, "Borough": "BRONX", "count": 3497}, {"year": 2016, "Borough": "QUEENS", "count": 2410}, {"year": 2016, "Borough": "STATEN ISLAND", "count": 734}, {"year": 2017, "Borough": "BROOKLYN", "count": 7253}, {"year": 2017, "Borough": "MANHATTAN", "count": 4507}, {"year": 2017, "Borough": "BRONX", "count": 3746}, {"year": 2017, "Borough": "QUEENS", "count": 2862}, {"year": 2017, "Borough": "STATEN ISLAND", "count": 784}, {"year": 2018, "Borough": "BROOKLYN", "count": 6568}, {"year": 2018, "Borough": "MANHATTAN", "count": 4295}, {"year": 2018, "Borough": "BRONX", "count": 3135}, {"year": 2018, "Borough": "QUEENS", "count": 2606}, {"year": 2018, "Borough": "STATEN ISLAND", "count": 745}, {"year": 2018, "Borough": "Unspecified", "count": 3}, {"year": 2019, "Borough": "BROOKLYN", "count": 6414}, {"year": 2019, "Borough": "MANHATTAN", "count": 4318}, {"year": 2019, "Borough": "BRONX", "count": 2789}, {"year": 2019, "Borough": "QUEENS", "count": 2522}, {"year": 2019, "Borough": "STATEN ISLAND", "count": 760}, {"year": 2019, "Borough": "Unspecified", "count": 4}, {"year": 2020, "Borough": "BROOKLYN", "count": 5995}, {"year": 2020, "Borough": "MANHATTAN", "count": 4180}, {"year": 2020, "Borough": "BRONX", "count": 2762}, {"year": 2020, "Borough": "QUEENS", "count": 2711}, {"year": 2020, "Borough": "STATEN ISLAND", "count": 614}, {"year": 2021, "Borough": "BROOKLYN", "count": 9500}, {"year": 2021, "Borough": "MANHATTAN", "count": 6947}, {"year": 2021, "Borough": "BRONX", "count": 4469}, {"year": 2021, "Borough": "QUEENS", "count": 3400}, {"year": 2021, "Borough": "STATEN ISLAND", "count": 694}, {"year": 2022, "Borough": "BROOKLYN", "count": 10122}, {"year": 2022, "Borough": "MANHATTAN", "count": 7455}, {"year": 2022, "Borough": "BRONX", "count": 4127}, {"year": 2022, "Borough": "QUEENS", "count": 4092}, {"year": 2022, "Borough": "STATEN ISLAND", "count": 700}, {"year": 2022, "Borough": "Unspecified", "count": 4}, {"year": 2023, "Borough": "BROOKLYN", "count": 4745}, {"year": 2023, "Borough": "MANHATTAN", "count": 3186}, {"year": 2023, "Borough": "QUEENS", "count": 2073}, {"year": 2023, "Borough": "BRONX", "count": 1608}, {"year": 2023, "Borough": "STATEN ISLAND", "count": 312}, {"year": 2023, "Borough": "Unspecified", "count": 3}]}};
-  			const embedOpt = {};
-  			vegaEmbed('#vega-visualization-b9b075bf07d84c1e81aa0b7cb2f3bb80', spec, embedOpt).catch(console.error);
-			</script>
+			<div class="vega-visualization" id="vega-visualization-d81b9c654bec4171819adcb2e8adb1a4"></div>
+    <style>
+      /*
+      FIRST, add
+        .properties(width='container')
+      to your altair graph in your Python code
+      
+      SECOND, the CSS below makes the graphs always be
+      100% of the width of the container
+      */
+      .vega-visualization {
+        width: 100%;
+      }
+    </style>
+<script type="text/javascript">
+      const spec = {
+        config: {
+          view: { continuousWidth: 800, continuousHeight: 300, stroke: null },
+          axis: { labelFontSize: 13, titleFontSize: 20 },
+          legend: {
+            labelFontSize: 12,
+            labelPadding: 5,
+            labelSeparation: 5,
+            offset: 20,
+            padding: 10,
+            rowPadding: 10,
+            symbolSize: 150,
+            symbolStrokeColor: "black",
+            symbolStrokeWidth: 1,
+            symbolType: "square",
+            titleColor: "black",
+            titleFontSize: 14,
+          },
+          title: { fontSize: 25 },
+        },
+        data: { name: "data-b1664b1326cf333cd2f0e2e3577db801" },
+        mark: { type: "area" },
+        encoding: {
+          color: {
+            field: "Borough",
+            scale: { range: ["yellow", "red", "orange", "pink", "purple", "grey"] },
+            type: "nominal",
+          },
+          tooltip: [
+            { field: "Borough", type: "nominal" },
+            { field: "year", type: "quantitative" },
+            { field: "count", type: "quantitative" },
+          ],
+          x: {
+            axis: { format: "0" },
+            field: "year",
+            scale: { domain: [2018, 2022] },
+            title: "Years",
+            type: "quantitative",
+          },
+          y: { field: "count", title: "Number of Complains", type: "quantitative" },
+        },
+        height: 400,
+        padding: 15,
+        params: [
+          { name: "param_3", select: { type: "interval", encodings: ["x", "y"] }, bind: "scales" },
+        ],
+        title: {
+          text: "Complaints about rodents per year (2010-June 25, 2023)",
+          anchor: "start",
+          offset: 20,
+          orient: "top",
+          subtitle: [],
+        },
+        width: 'container',
+        $schema: "https://vega.github.io/schema/vega-lite/v5.8.0.json",
+        datasets: {
+          "data-b1664b1326cf333cd2f0e2e3577db801": [
+            { year: 2010, Borough: "BROOKLYN", count: 3399 },
+            { year: 2010, Borough: "MANHATTAN", count: 2867 },
+            { year: 2010, Borough: "BRONX", count: 2067 },
+            { year: 2010, Borough: "QUEENS", count: 1569 },
+            { year: 2010, Borough: "STATEN ISLAND", count: 632 },
+            { year: 2011, Borough: "BROOKLYN", count: 3671 },
+            { year: 2011, Borough: "MANHATTAN", count: 2461 },
+            { year: 2011, Borough: "BRONX", count: 2174 },
+            { year: 2011, Borough: "QUEENS", count: 1600 },
+            { year: 2011, Borough: "STATEN ISLAND", count: 548 },
+            { year: 2012, Borough: "BROOKLYN", count: 3600 },
+            { year: 2012, Borough: "MANHATTAN", count: 2857 },
+            { year: 2012, Borough: "BRONX", count: 2125 },
+            { year: 2012, Borough: "QUEENS", count: 1522 },
+            { year: 2012, Borough: "STATEN ISLAND", count: 538 },
+            { year: 2012, Borough: "Unspecified", count: 1 },
+            { year: 2013, Borough: "BROOKLYN", count: 3300 },
+            { year: 2013, Borough: "MANHATTAN", count: 3018 },
+            { year: 2013, Borough: "BRONX", count: 2120 },
+            { year: 2013, Borough: "QUEENS", count: 1660 },
+            { year: 2013, Borough: "STATEN ISLAND", count: 641 },
+            { year: 2014, Borough: "BROOKLYN", count: 3968 },
+            { year: 2014, Borough: "MANHATTAN", count: 3541 },
+            { year: 2014, Borough: "BRONX", count: 2743 },
+            { year: 2014, Borough: "QUEENS", count: 1748 },
+            { year: 2014, Borough: "STATEN ISLAND", count: 617 },
+            { year: 2015, Borough: "BROOKLYN", count: 5264 },
+            { year: 2015, Borough: "MANHATTAN", count: 4124 },
+            { year: 2015, Borough: "BRONX", count: 3201 },
+            { year: 2015, Borough: "QUEENS", count: 2103 },
+            { year: 2015, Borough: "STATEN ISLAND", count: 594 },
+            { year: 2016, Borough: "BROOKLYN", count: 5979 },
+            { year: 2016, Borough: "MANHATTAN", count: 4610 },
+            { year: 2016, Borough: "BRONX", count: 3497 },
+            { year: 2016, Borough: "QUEENS", count: 2410 },
+            { year: 2016, Borough: "STATEN ISLAND", count: 734 },
+            { year: 2017, Borough: "BROOKLYN", count: 7253 },
+            { year: 2017, Borough: "MANHATTAN", count: 4507 },
+            { year: 2017, Borough: "BRONX", count: 3746 },
+            { year: 2017, Borough: "QUEENS", count: 2862 },
+            { year: 2017, Borough: "STATEN ISLAND", count: 784 },
+            { year: 2018, Borough: "BROOKLYN", count: 6568 },
+            { year: 2018, Borough: "MANHATTAN", count: 4295 },
+            { year: 2018, Borough: "BRONX", count: 3135 },
+            { year: 2018, Borough: "QUEENS", count: 2606 },
+            { year: 2018, Borough: "STATEN ISLAND", count: 745 },
+            { year: 2018, Borough: "Unspecified", count: 3 },
+            { year: 2019, Borough: "BROOKLYN", count: 6414 },
+            { year: 2019, Borough: "MANHATTAN", count: 4318 },
+            { year: 2019, Borough: "BRONX", count: 2789 },
+            { year: 2019, Borough: "QUEENS", count: 2522 },
+            { year: 2019, Borough: "STATEN ISLAND", count: 760 },
+            { year: 2019, Borough: "Unspecified", count: 4 },
+            { year: 2020, Borough: "BROOKLYN", count: 5995 },
+            { year: 2020, Borough: "MANHATTAN", count: 4180 },
+            { year: 2020, Borough: "BRONX", count: 2762 },
+            { year: 2020, Borough: "QUEENS", count: 2711 },
+            { year: 2020, Borough: "STATEN ISLAND", count: 614 },
+            { year: 2021, Borough: "BROOKLYN", count: 9500 },
+            { year: 2021, Borough: "MANHATTAN", count: 6947 },
+            { year: 2021, Borough: "BRONX", count: 4469 },
+            { year: 2021, Borough: "QUEENS", count: 3400 },
+            { year: 2021, Borough: "STATEN ISLAND", count: 694 },
+            { year: 2022, Borough: "BROOKLYN", count: 10122 },
+            { year: 2022, Borough: "MANHATTAN", count: 7455 },
+            { year: 2022, Borough: "BRONX", count: 4127 },
+            { year: 2022, Borough: "QUEENS", count: 4092 },
+            { year: 2022, Borough: "STATEN ISLAND", count: 700 },
+            { year: 2022, Borough: "Unspecified", count: 4 },
+            { year: 2023, Borough: "BROOKLYN", count: 4745 },
+            { year: 2023, Borough: "MANHATTAN", count: 3186 },
+            { year: 2023, Borough: "QUEENS", count: 2073 },
+            { year: 2023, Borough: "BRONX", count: 1608 },
+            { year: 2023, Borough: "STATEN ISLAND", count: 312 },
+            { year: 2023, Borough: "Unspecified", count: 3 },
+          ],
+        },
+      }
+      const embedOpt = {}
+      vegaEmbed("#vega-visualization-d81b9c654bec4171819adcb2e8adb1a4", spec, embedOpt).catch(
+        console.error
+      )
+    </script>
 		</div>
 
 	<section class="story-body">
