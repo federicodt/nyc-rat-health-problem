@@ -11,8 +11,6 @@
 ## **Project findings.**
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We found that the rat problem is getting worse year after year. In 2021 and 2022, records were broken for rat sightings. This means more calls for complaints. In addition, we noticed that there used to be large concentrations in certain places and now it is more homogeneous. In other words, has spread, causing the problem to become more severe.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;On other side, On the other hand, I found that the first lady used the planes and helicopters of the presidential air fleet during the lockdown for the Coronavirus Pandemic. By law, the first lady cannot use them, because she does not hold any position in the National State. The only exception is if she travels with the President of the Nation and her presence is justified. In addition to all this, there is the aggravating circumstance that public funds were used.
-
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;On the other hand, rat bites increased and with this, cases of lectospirosis and rat fever. In 2021, there were deaths due to this.
 
 ## **Project data collection.**
@@ -33,9 +31,9 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;For plotting the graphics I used Matplotlib, Altair and Seaborn. None of them I had used before. In addition, I did some plotting with Datawrapper and Flourish. Also, I added a graph in D3.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Para este artículo tuve muchos problemas. Para empezar, el template de html me dio dificultades para modificarlo. Cada vez que ponía algo, otra cosa se rompía. Cuando inserté el gráfico hecho en D3, el 'base.css' colisionaba con el 'style.css'. Eso me dio unos cuantos dolores de cabeza.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;For this article I had a lot of problems. First of all, the html template gave me difficulty modifying it. Every time I placed something, other thing went broken. When I inserted the graph made in D3, the 'base.css' collided with the 'style.css'. That gave me a few headaches.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Acerca de los gráficos, los que realicé en Altair, que fueron algunos, no todos pude embeberlos en 'index.html'. Probé muchas cosas, hasta que encontré en un foro que resulta que hay entre la última versión de Altair y Chrome. Al parecer, los últimos cambios del navegador de Google no permiten embeber ciertos gráficos en Altair.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;About the graphics, the ones I made in Altair, which were some, I couldn’t all embed in the 'index.html'. I tried a lot of things, until I found in a forum that happens to be a problem between the latest version of Altair and Chrome. Apparently, The latest Google browser changes do not allow you to embed certain graphics into Altair.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Regarding Altair, I had a hard time modifying it and configuring it to look the way I wanted. The Folium heat maps were also complicated. In all cases, it was the first time I used these tools.
 
