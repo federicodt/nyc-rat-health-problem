@@ -16,7 +16,7 @@
 ## **Project data collection.**
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;As I mentioned earlier, the project was based on public information available on the NYC Open Data site.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;All files are available in the project folder on [GitHub]([https://github.com/federicodt/project1/](https://github.com/federicodt/nyc-rat-health-problem)).
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;All files are available in the project folder on [GitHub](https://github.com/federicodt/nyc-rat-health-problem).
 
 ## **Project data analysis process & notebooks.**
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I used this notebooks to clean each dataset (Rat sightings, Rodent inspections and Rat heat map) and extract what I needed for my analysis.
